@@ -9,8 +9,8 @@
     box-sizing: border-box;
     padding: 0%;
     margin: 0%;
-    list-style-type: none;
-    text-decoration: none;
+    list-style-type: none !important;
+    text-decoration: none !important;
 }
 
 .fontfamily {
@@ -139,5 +139,25 @@
 
 .apps-2:hover {
     transform: scale(0.8);
-        transition: all linear 0.3s;
+    transition: all linear 0.3s;
+}
+
+.menulist {
+    font-family: "Noto Serif", serif;
+    font-size: var(--fs-16);
+    font-weight: 400;
+    line-height: 21.79px;
+    color: var(--color-black);
+}
+.border-11{
+    border-left: 2px solid rgba(0, 0, 0, 1) !important;
+    border-right: 2px solid rgba(0, 0, 0, 1) !important;
+    padding: 10px;
+}
+.border-tp{
+    border-top: 2px solid var(--color-black);
+        border-bottom: 2px solid var(--color-black);
+}
+.brdr-lft{
+    border-left: none !important;
 }
