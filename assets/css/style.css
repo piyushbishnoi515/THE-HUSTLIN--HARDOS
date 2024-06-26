@@ -161,3 +161,15 @@
 .brdr-lft{
     border-left: none !important;
 }
+.mainname{
+    font-family: ModernoFBComp;
+        font-size: var(--fs-157);
+        font-weight: 400;
+        line-height: 188.4px;
+        color: var(--color-black);
+        text-align: center;
+}
+.img-top-border{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
