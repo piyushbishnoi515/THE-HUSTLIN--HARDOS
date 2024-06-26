@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+@font-face {
+    font-family: ModernoFBComp;
+    src: url(../font-f/modernofbcomp-semibold.otf);
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    list-style-type: none;
+    text-decoration: none;
+}
+.fontfamily{
+    font-family: "Noto Serif", serif;
+}
+
+/* -------root------- */
+:root {
+    --fs-14: 14px;
+    --fs-16: 16px;
+    --fs-24: 24px;
+    --fs-18: 18px;
+    --fs-72: 72px;
+    --fs-157: 157px;
+    --fs-80: 80px;
+    --fs-36: 36px;
+    /* --color-- */
+    --color-brown: #70675f;
+    --color-black: #000000;
+    --color-yellow: #ffd600;
+    --color-green: #00a106;
+    --color-red: #ff0000;
+    --color-red-2: #ff1300;
+    --color-slati: #A59A90;
+}
