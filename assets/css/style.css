@@ -149,27 +149,70 @@
     line-height: 21.79px;
     color: var(--color-black);
 }
-.border-11{
+
+.border-11 {
     border-left: 2px solid rgba(0, 0, 0, 1) !important;
     border-right: 2px solid rgba(0, 0, 0, 1) !important;
     padding: 10px;
 }
-.border-tp{
+
+.border-tp {
     border-top: 2px solid var(--color-black);
-        border-bottom: 2px solid var(--color-black);
+    border-bottom: 2px solid var(--color-black);
 }
-.brdr-lft{
+
+.brdr-lft {
     border-left: none !important;
 }
-.mainname{
+
+.mainname {
     font-family: ModernoFBComp;
-        font-size: var(--fs-157);
-        font-weight: 400;
-        line-height: 188.4px;
-        color: var(--color-black);
-        text-align: center;
+    font-size: var(--fs-157);
+    font-weight: 400;
+    line-height: 188.4px;
+    color: var(--color-black);
+    text-align: center;
 }
-.img-top-border{
+
+.img-top-border {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.breacing-pera {
+    font-family: "Noto Serif", serif;
+    font-size: var(--fs-72);
+    font-weight: 400;
+    line-height: 100.8px;
+    color: var(--color-black);
+    max-width: 1140px;
+}
+
+.date-1 {
+    font-family: "Noto Serif", serif;
+    font-size: var(--fs-16);
+    font-weight: 400;
+    line-height: 21.79px;
+    color: var(--color-black);
+}
+
+.hustin-pera {
+    font-family: "Noto Serif", serif;
+    font-size: var(--fs-18);
+    font-weight: 400;
+    line-height: 27px;
+    color: var(--color-black);
+}
+
+.readlink {
+    font-family: "Noto Serif", serif;
+    font-size: var(--fs-16);
+    font-weight: 400;
+    line-height: 21.79px;
+    color: var(--color-black);
+}
+
+.bder {
     border-top: 2px solid black;
     border-bottom: 2px solid black;
 }
