@@ -266,6 +266,11 @@
     padding: 25px;
 }
 
+.childslider2 {
+    padding: 35px;
+    background-image: url(../img/png/sliderimg.png);
+}
+
 .cursor {
     cursor: pointer !important;
 }
@@ -470,6 +475,25 @@
     left: 13px;
     bottom: 56px;
 }
+
+.crypyo-text {
+    font-family: 'Noto Serif', sans-serif;
+    font-size: var(--fs-16);
+    font-weight: 400;
+    line-height: 21.79px;
+    text-align: center;
+    color: var(--color-242451);
+}
+
+.diam-pera2 {
+    font-family: 'Noto Serif', sans-serif;
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 49.03px;
+    color: var(--color-slati);
+    max-width: 319px;
+}
+
 @media (min-width:576px) {
 
     /* timeline */
@@ -559,9 +583,10 @@
     .mainname {
         line-height: 188.4px;
     }
-        .breacing-pera{
-            line-height: 100px;
-        }
+
+    .breacing-pera {
+        line-height: 100px;
+    }
 }
 
 @media (max-width: 991.9px) {
