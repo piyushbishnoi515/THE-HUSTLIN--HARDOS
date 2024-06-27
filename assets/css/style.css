@@ -340,12 +340,28 @@
     width: 111px;
     height: 43px;
     margin-top: 30px;
-        margin-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 .mint-btn:hover {
     background-color: var(--color-yellow);
     transform: scale(0.8);
     transition: all linear 0.3s;
- 
+
+}
+
+.etian-text {
+    font-family: "Noto Serif", serif;
+    font-size: var(--fs-24);
+    font-weight: 400;
+    line-height: 26.57px;
+    color: var(--color-black);
+}
+
+.fore {
+    font-family: "Noto Serif", serif;
+    font-size: var(--fs-36);
+    font-weight: 600;
+    line-height: 39.85px;
+    color: var(--color-black);
 }
