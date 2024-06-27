@@ -216,7 +216,8 @@
     border-top: 2px solid black;
     border-bottom: 2px solid black !important;
 }
-.bder-2{
+
+.bder-2 {
     border-bottom: 2px solid black !important
 }
 
@@ -256,13 +257,95 @@
     line-height: 21.79px;
     color: var(--color-black);
     max-width: 327px;
-    
+
 }
-.childslider{
+
+.childslider {
     /* border-left: 2px solid rgba(0, 0, 0, 1) !important; */
-        /* border-right: 2px solid rgba(0, 0, 0, 1) !important; */
-        padding: 25px;
+    /* border-right: 2px solid rgba(0, 0, 0, 1) !important; */
+    padding: 25px;
 }
-.cursor{
+
+.cursor {
     cursor: pointer !important;
+}
+
+.most-pera {
+    font-family: "Noto Serif", serif;
+    font-size: var(--fs-16);
+    font-weight: 400;
+    line-height: 21.79px;
+    color: var(--color-black);
+    max-width: 438px;
+}
+
+.outline-black {
+    outline: 2px solid #000000;
+}
+
+.box1 {
+    width: 238px;
+    height: 53px;
+}
+
+.btn-sub {
+    border-right: 2px solid #000000 !important;
+}
+
+.btn-add,
+.btn-sub {
+    border: none;
+    background-color: transparent;
+    padding: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.text-e {
+    font-family: "Noto Serif", serif;
+    font-size: var(--fs-36);
+    font-weight: 600;
+    line-height: 39.85px;
+    color: #000000;
+}
+
+.btn-add {
+    border-left: 2px solid #000000;
+}
+
+.timer {
+    font-family: "Noto Serif", serif;
+    font-size: var(--fs-36);
+    font-weight: 600;
+    line-height: 49.03px;
+    color: var(--color-red);
+}
+
+.timeleft {
+    font-family: "Noto Serif", serif;
+    font-size: var(--fs-18);
+    font-weight: 600;
+    line-height: 24.52px;
+    color: var(--color-green);
+    margin-top: 20px;
+}
+
+.mint-btn {
+    font-family: "Noto Serif", serif;
+    font-size: var(--fs-16);
+    font-weight: 600;
+    line-height: 19.07px;
+    color: var(--color-black);
+    border: 2px solid black;
+    width: 111px;
+    height: 43px;
+    margin-top: 30px;
+        margin-bottom: 10px;
+}
+
+.mint-btn:hover {
+    background-color: var(--color-yellow);
+    transform: scale(0.8);
+    transition: all linear 0.3s;
+ 
 }
