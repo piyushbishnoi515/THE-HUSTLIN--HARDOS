@@ -1,8 +1,8 @@
 $('.parentslider').slick({
     dots: false,
     infinite: true,
-    prevArrow: ".prev",
-    nextArrow: ".next",
+    prevArrow: ".prev1",
+    nextArrow: ".next1",
     speed: 300,
     autoplay: true,
     autoplaySpeed: 2000,
@@ -68,3 +68,12 @@ function openNav() {
     document.body.classList.toggle("overflow_hidden");
     document.querySelector(".menu_1").classList.toggle("cross")
 }
+const accordaon = document.querySelectorAll(".accordion-heading");
+
+accordaon.forEach(acc => {
+    acc.addEventListener("click", function () {
+        const accacitve = document.querySelector(".accordion.acc-active");
+        acc.parentElement.classList.toggle("acc-active");
+        accacitve && accacitve.classList.remove("acc-active");
+    });
+});

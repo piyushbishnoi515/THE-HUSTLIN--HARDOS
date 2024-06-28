@@ -221,6 +221,10 @@
     border-bottom: 2px solid black !important
 }
 
+.bder-3 {
+    border-top: 2px solid black !important
+}
+
 .pdd {
     padding-left: 43px;
     padding-right: 43px;
@@ -232,6 +236,7 @@
     font-weight: 400;
     line-height: 100.8px;
     color: var(--color-black);
+    text-shadow: 3px 3px 3px var(--color-black);
 }
 
 .etiam {
@@ -361,6 +366,7 @@
     font-weight: 400;
     line-height: 26.57px;
     color: var(--color-black);
+    text-wrap: nowrap;
 }
 
 /* timeline */
@@ -382,7 +388,7 @@
     margin-left: -3px;
 }
 
-.timeline-box-right {
+.timeline-b-r {
     position: relative;
     width: 100%;
     left: 0;
@@ -395,7 +401,7 @@
     position: absolute;
     background-image: url(../img/svg/svgtimeline.svg);
     border-radius: 50%;
-    top: 14px;
+    top: 79px;
     left: 1px;
     z-index: 1;
 }
@@ -475,6 +481,9 @@
     left: 13px;
     bottom: 56px;
 }
+.gap-5{
+    gap: 30px;
+}
 
 .crypyo-text {
     font-family: 'Noto Serif', sans-serif;
@@ -492,6 +501,70 @@
     line-height: 49.03px;
     color: var(--color-slati);
     max-width: 319px;
+}
+
+/* ----accordian---- */
+.img-1 {
+    box-shadow: -2px -2px 2px 0px #0000004D inset;
+    border-radius: 50%;
+    box-shadow: 2px 2px 3px 0px #FFFFFF inset;
+}
+
+.accordion-heading {
+    padding: 20px;
+    position: relative;
+    z-index: 1;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.p-20 {
+    padding: 20px;
+}
+
+.accordion {
+    position: relative;
+    overflow: hidden;
+    border-top: 2px solid #000000;
+}
+
+.text-p {
+    position: absolute;
+    top: -600%;
+    left: 0%;
+    transition: all 0.3s ease-in-out;
+}
+
+.apps {
+    position: relative;
+    display: flex;
+    cursor: pointer;
+}
+
+.line1 {
+    display: flex;
+}
+
+.line2 {
+    display: none;
+}
+
+.max-w-438 {
+    max-width: 438px;
+}
+
+.acc-active {
+    .text-p {
+        position: unset;
+    }
+
+    .line2 {
+        display: flex;
+    }
+
+    .line1 {
+        display: none;
+    }
 }
 
 @media (min-width:576px) {
@@ -587,6 +660,18 @@
     .breacing-pera {
         line-height: 100px;
     }
+    .brdr-lft-lg{
+        border-left: none !important;
+    }
+    .gap-5{
+        gap: 0px !important;
+    }
+
+    .border-11-lg {
+        border-left: 2px solid rgba(0, 0, 0, 1);
+        border-right: 2px solid rgba(0, 0, 0, 1) ;
+        padding: 10px;
+    }
 }
 
 @media (max-width: 991.9px) {
@@ -600,13 +685,15 @@
         align-items: center;
         justify-content: center;
         transition: all 400ms linear;
-        /* backdrop-filter: blur(90px); */
-        background-color: var(--color-242451);
-        z-index: 30;
+        background-color: var(--color-yellow);
+        /* background-image: linear-gradient(to top, #000000, #000000b7); */
+        z-index: 40;
     }
 
     .menu_1 {
         z-index: 50;
+        position: absolute;
+        margin-top: 5px;
     }
 
     .overflow_hidden {
@@ -616,7 +703,7 @@
     .menu_1 span:nth-child(1) {
         height: 4px;
         width: 35px;
-        background-color: var(--color-white);
+        background-color: var(--color-black);
         display: block;
         border-radius: 30px;
     }
@@ -624,7 +711,7 @@
     .menu_1 span:nth-child(2) {
         height: 4px;
         width: 35px;
-        background-color: var(--color-white);
+        background-color: var(--color-black);
         display: block;
         border-radius: 30px;
     }
@@ -632,7 +719,7 @@
     .menu_1 span:nth-child(3) {
         height: 4px;
         width: 35px;
-        background-color: var(--color-white);
+        background-color: var(--color-black);
         display: block;
         border-radius: 30px;
     }
@@ -644,7 +731,7 @@
     .cross span:nth-child(1) {
         transform: rotate(42deg) translateY(16px);
         transition: 300ms linear;
-        background-color: var(--color-white);
+        background-color: var(--color-black);
     }
 
     .cross span:nth-child(2) {
@@ -656,7 +743,7 @@
     .cross span:nth-child(3) {
         transform: rotate(-43deg) translateY(-15px);
         transition: 300ms linear;
-        background-color: var(--color-white);
+        background-color: var(--color-black);
     }
 
     .right {
