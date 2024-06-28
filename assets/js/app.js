@@ -1,8 +1,8 @@
 $('.parentslider').slick({
     dots: false,
     infinite: true,
-    prevArrow: ".prev",
-    nextArrow: ".next",
+    prevArrow: ".prev1",
+    nextArrow: ".next1",
     speed: 300,
     autoplay: true,
     autoplaySpeed: 2000,
