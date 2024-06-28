@@ -68,3 +68,12 @@ function openNav() {
     document.body.classList.toggle("overflow_hidden");
     document.querySelector(".menu_1").classList.toggle("cross")
 }
+const accordaon = document.querySelectorAll(".accordion-heading");
+
+accordaon.forEach(acc => {
+    acc.addEventListener("click", function () {
+        const accacitve = document.querySelector(".accordion.acc-active");
+        acc.parentElement.classList.toggle("acc-active");
+        accacitve && accacitve.classList.remove("acc-active");
+    });
+});

@@ -220,7 +220,9 @@
 .bder-2 {
     border-bottom: 2px solid black !important
 }
-
+.bder-3{
+        border-top: 2px solid black !important
+}
 .pdd {
     padding-left: 43px;
     padding-right: 43px;
@@ -493,6 +495,69 @@
     line-height: 49.03px;
     color: var(--color-slati);
     max-width: 319px;
+}
+/* ----accordian---- */
+.img-1 {
+    box-shadow: -2px -2px 2px 0px #0000004D inset;
+    border-radius: 50%;
+    box-shadow: 2px 2px 3px 0px #FFFFFF inset;
+}
+
+.accordion-heading {
+    padding: 20px;
+    position: relative;
+    z-index: 1;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.p-20 {
+    padding: 20px;
+}
+
+.accordion {
+    position: relative;
+    overflow: hidden;
+    border-top: 2px solid #000000;
+}
+
+.text-p {
+    position: absolute;
+    top: -600%;
+    left: 0%;
+    transition: all 0.3s ease-in-out;
+}
+
+.apps {
+    position: relative;
+    display: flex;
+    cursor: pointer;
+}
+
+.line1 {
+    display: flex;
+}
+
+.line2 {
+    display: none;
+}
+
+.max-w-438 {
+    max-width: 438px;
+}
+
+.acc-active {
+    .text-p {
+        position: unset;
+    }
+
+    .line2 {
+        display: flex;
+    }
+
+    .line1 {
+        display: none;
+    }
 }
 
 @media (min-width:576px) {
