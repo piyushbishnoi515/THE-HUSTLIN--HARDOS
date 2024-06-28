@@ -686,12 +686,14 @@
         justify-content: center;
         transition: all 400ms linear;
         background-color: var(--color-yellow);
+        /* background-image: linear-gradient(to top, #000000, #000000b7); */
         z-index: 40;
     }
 
     .menu_1 {
         z-index: 50;
-        position: fixed;
+        position: absolute;
+        margin-top: 5px;
     }
 
     .overflow_hidden {
@@ -729,7 +731,7 @@
     .cross span:nth-child(1) {
         transform: rotate(42deg) translateY(16px);
         transition: 300ms linear;
-        background-color: var(--color-slati);
+        background-color: var(--color-black);
     }
 
     .cross span:nth-child(2) {
@@ -741,7 +743,7 @@
     .cross span:nth-child(3) {
         transform: rotate(-43deg) translateY(-15px);
         transition: 300ms linear;
-        background-color: var(--color-slati);
+        background-color: var(--color-black);
     }
 
     .right {
