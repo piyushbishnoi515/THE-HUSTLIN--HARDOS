@@ -220,9 +220,11 @@
 .bder-2 {
     border-bottom: 2px solid black !important
 }
-.bder-3{
-        border-top: 2px solid black !important
+
+.bder-3 {
+    border-top: 2px solid black !important
 }
+
 .pdd {
     padding-left: 43px;
     padding-right: 43px;
@@ -479,6 +481,9 @@
     left: 13px;
     bottom: 56px;
 }
+.gap-5{
+    gap: 30px;
+}
 
 .crypyo-text {
     font-family: 'Noto Serif', sans-serif;
@@ -497,6 +502,7 @@
     color: var(--color-slati);
     max-width: 319px;
 }
+
 /* ----accordian---- */
 .img-1 {
     box-shadow: -2px -2px 2px 0px #0000004D inset;
@@ -653,6 +659,18 @@
 
     .breacing-pera {
         line-height: 100px;
+    }
+    .brdr-lft-lg{
+        border-left: none !important;
+    }
+    .gap-5{
+        gap: 0px !important;
+    }
+
+    .border-11-lg {
+        border-left: 2px solid rgba(0, 0, 0, 1);
+        border-right: 2px solid rgba(0, 0, 0, 1) ;
+        padding: 10px;
     }
 }
 
