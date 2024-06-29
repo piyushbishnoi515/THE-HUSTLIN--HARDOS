@@ -23,7 +23,8 @@
     --fs-16: 16px;
     --fs-24: 24px;
     --fs-18: 16px;
-    --fs-72: 37px;
+    --fs-72: 30px;
+    /* --fs-72: 72px; */
     --fs-157: 90px;
     --fs-80: 80px;
     --fs-36: 36px;
@@ -69,6 +70,9 @@
     font-size: 16px;
     font-weight: 400;
     line-height: 21.79px;
+}
+.gap-30{
+    gap: 30px;
 }
 
 .border-red {
@@ -664,7 +668,7 @@
         border-left: none !important;
     }
     .gap-5{
-        gap: 0px !important;
+        gap: 5px !important;
     }
 
     .border-11-lg {
